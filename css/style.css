@@ -9,6 +9,8 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
+  -webkit-box-shadow: inset 0px  -200px 300px 119px black;
+          box-shadow: inset 0px  -200px 300px 119px black;
 }
 
 #main p {
@@ -16,7 +18,7 @@
 }
 
 .container-fluid {
-  background-color: #1c064e;
+  background-image: -webkit-linear-gradient(270deg, black, #0b064e);
 }
 
 .container-fluid .container #timeline {

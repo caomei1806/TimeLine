@@ -1,5 +1,5 @@
 $light: rgb(220, 157, 236);
-$night: rgb(28, 6, 78);
+$night: rgb(11, 6, 78);
 $aurora: rgb(60, 4, 86);
 $note: rgb(119, 151, 160);
 .btn {
@@ -15,13 +15,14 @@ $note: rgb(119, 151, 160);
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
+    box-shadow: inset 0px  -200px 300px 119px black;
     p {
         color: $note;
     }
 }
 
 .container-fluid {
-    background-color:$night;
+    background-image: -webkit-linear-gradient(270deg, black, $night);
     .container {
         #timeline {
             width: auto;
