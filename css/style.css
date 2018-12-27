@@ -1,0 +1,39 @@
+.btn.btn-outline-light {
+  border-color: #dc9dec;
+  color: #dc9dec;
+}
+
+#main {
+  height: 90vh;
+  background: url("../image/mountain1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#main p {
+  color: #7797a0;
+}
+
+.container-fluid {
+  background-color: #1c064e;
+}
+
+.container-fluid .container #timeline {
+  width: auto;
+  height: 100vh;
+}
+
+.container-fluid .container #timeline .timeline-event {
+  width: auto;
+  height: 100px;
+}
+
+.container-fluid .container #timeline .timeline-event .event-left {
+  background: #3c0456;
+}
+
+.container-fluid .container #timeline .timeline-event .event-right {
+  background: #250869;
+}
+/*# sourceMappingURL=style.css.map */

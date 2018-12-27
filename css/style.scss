@@ -1,0 +1,41 @@
+$light: rgb(220, 157, 236);
+$night: rgb(28, 6, 78);
+$aurora: rgb(60, 4, 86);
+$note: rgb(119, 151, 160);
+.btn {
+    &.btn-outline-light {
+        border-color: $light;
+        color: $light;
+    }
+}
+
+#main {
+    height: 90vh;
+    background: url("../image/mountain1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    p {
+        color: $note;
+    }
+}
+
+.container-fluid {
+    background-color:$night;
+    .container {
+        #timeline {
+            width: auto;
+            height: 100vh;
+            .timeline-event {
+                width: auto;
+                height: 100px;
+                .event-left {
+                    background: rgb(60, 4, 86);
+                }
+                .event-right {
+                    background: rgb(37, 8, 105);
+                }
+            }
+        }
+    }
+}
